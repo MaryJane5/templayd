@@ -1,0 +1,72 @@
+.finance_text_head h3 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.finance_iner {
+  padding: 8% 0px;
+}
+
+.finance_outer {
+  padding: 50px 0;
+}
+
+.finance_outer .plan {
+  -webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.finance_outer .plan img {
+  width: 100%;
+}
+
+.finance .btn {
+  border: 2px solid #00a759;
+  background-color: #FFF;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  padding: 8px 25px;
+  font-family: Roboto;
+  font-weight: 900;
+}
+
+.finance .btn a {
+  text-decoration: none;
+  color: #00a759;
+}
+
+.text_finance_top h3 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+.text_finance_bott p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.55;
+  font-family: Roboto;
+  padding: 15px 0;
+}
+
+.text_finance_bott p:first-child {
+  padding-bottom: 0px;
+}
+
+.icon {
+  z-index: 1;
+}
+
+.icon:before {
+  content: " ";
+  position: absolute;
+  background-image: url("../img/clock.png");
+  z-index: -1;
+  width: 50px;
+  height: 50px;
+}
+
+.icon h3 {
+  padding-left: 100px;
+}
