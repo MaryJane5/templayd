@@ -254,14 +254,8 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 	margin-bottom: 50px
 	@media screen and (max-width : 992px)
 		width: 500px
-		margin-left: 70px
-	@media screen and (max-width : 768px)
-		width: 450px
-		margin-left: 150px
-	@media screen and (max-width : 678px)
-		width: 400px
-		margin-left: 100px
-		
+		margin-bottom: 0px
+		margin: auto
 
 .oure_client
 	h3
@@ -271,8 +265,10 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 		font-size: 42px
 		text-align: center
 		padding-bottom: 75px
-		// @media screen and (max-width : 610px)
-		// 	font-size: 30px
+		@media screen and (max-width : 992px)
+			width: 90%
+			margin: auto
+		
 .img_client
 
 	img
@@ -319,8 +315,6 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 	position: relative
 	@media screen and (max-width : 1200px)
 		width: 70%
-	@media screen and (max-width : 992px)
-		margin-left: 100px
 	&:before
 		content: ""
 		width: 10px
@@ -330,7 +324,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 		position: absolute
 		left: -30px
 		top: 20%
-		@media screen and (max-width : 993px)
+		@media screen and (max-width : 992px)
 			display: none
 .client
 	.triangle-topright_2
@@ -350,10 +344,6 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 				top: 20%
 				@media screen and (max-width : 992px)
 					display: none
-.client_2
-	// @media screen and (max-width : 768px)
-	// 	margin-left: 50px
-
 
 .tariff
 	padding: 75px 0
@@ -371,7 +361,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 	border: 1px solid #e0e6ed;
 	border-radius: 9px
 	text-align: center
-	width: 200px
+	max-width: 200px
 	height: 530px
 	margin: auto
 	margin-left: 30px
@@ -546,9 +536,11 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 		font-family: 'Roboto', sans-serif
 		font-weight: 600
 		font-size: 48px
-		// width: 860px
 		padding-bottom: 25px
 		color: #fff
+		@media screen and (max-width : 768px)
+			font-size: 36px
+	
 .text_bott_finance
 	p
 		font-family: 'Roboto', sans-serif
@@ -750,6 +742,9 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 		font-family: 'Open Sans'
 		line-height: 1.55
 		font-weight: 700
+		@media screen and (max-width : 480px)
+			font-size: 16px
+
 		
 		padding-bottom: 20px
 .service_inner
@@ -796,6 +791,8 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 		font-size: 19px
 		font-family: 'Roboto'
 		font-weight: 400
+		@media screen and (max-width : 480px)
+			font-size: 12px
 
 .box_header
 	margin-top: 50px
@@ -822,7 +819,9 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 		font-family: 'Roboto'
 		line-height: 1.55
 		font-weight: 500
-
+		@media screen and (max-width : 992px)
+			font-size: 20px
+	
  
 .text_form_head
 	p
@@ -831,6 +830,8 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 		font-family: 'Roboto'
 		line-height: 1.55
 		font-weight: 500 
+		@media screen and (max-width : 992px)
+			font-size: 18px
 .service
 	form
 		.sech_bttn

@@ -350,21 +350,8 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 @media screen and (max-width: 992px) {
   .client_iner {
     width: 500px;
-    margin-left: 70px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .client_iner {
-    width: 450px;
-    margin-left: 150px;
-  }
-}
-
-@media screen and (max-width: 678px) {
-  .client_iner {
-    width: 400px;
-    margin-left: 100px;
+    margin-bottom: 0px;
+    margin: auto;
   }
 }
 
@@ -375,6 +362,13 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   font-size: 42px;
   text-align: center;
   padding-bottom: 75px;
+}
+
+@media screen and (max-width: 992px) {
+  .oure_client h3 {
+    width: 90%;
+    margin: auto;
+  }
 }
 
 .img_client img {
@@ -442,12 +436,6 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   }
 }
 
-@media screen and (max-width: 992px) {
-  .triangle-topright_1 {
-    margin-left: 100px;
-  }
-}
-
 .triangle-topright_1:before {
   content: "";
   width: 10px;
@@ -459,7 +447,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   top: 20%;
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 992px) {
   .triangle-topright_1:before {
     display: none;
   }
@@ -517,7 +505,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   -webkit-border-radius: 9px;
           border-radius: 9px;
   text-align: center;
-  width: 200px;
+  max-width: 200px;
   height: 530px;
   margin: auto;
   margin-left: 30px;
@@ -726,6 +714,12 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   font-size: 48px;
   padding-bottom: 25px;
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .text_head h3 {
+    font-size: 36px;
+  }
 }
 
 .text_bott_finance p {
@@ -976,6 +970,12 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   padding-bottom: 20px;
 }
 
+@media screen and (max-width: 480px) {
+  .service_text_top h1 {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .service_inner {
     margin-bottom: 20px;
@@ -1040,6 +1040,12 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   font-weight: 400;
 }
 
+@media screen and (max-width: 480px) {
+  .service_text_bott p {
+    font-size: 12px;
+  }
+}
+
 .box_header {
   margin-top: 50px;
   -webkit-border-radius: 10px;
@@ -1072,12 +1078,24 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   font-weight: 500;
 }
 
+@media screen and (max-width: 992px) {
+  .text_form_head h3 {
+    font-size: 20px;
+  }
+}
+
 .text_form_head p {
   color: #ffffff;
   font-size: 22px;
   font-family: 'Roboto';
   line-height: 1.55;
   font-weight: 500;
+}
+
+@media screen and (max-width: 992px) {
+  .text_form_head p {
+    font-size: 18px;
+  }
 }
 
 .service form .sech_bttn {
