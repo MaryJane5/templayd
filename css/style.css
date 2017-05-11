@@ -505,7 +505,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   -webkit-border-radius: 9px;
           border-radius: 9px;
   text-align: center;
-  max-width: 200px;
+  min-width: 200px;
   height: 530px;
   margin: auto;
   margin-left: 30px;
@@ -519,18 +519,6 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 
 .block_red {
   background: #e50851;
-}
-
-@media screen and (max-width: 1200px) {
-  .block_red {
-    margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .block_red {
-    margin-bottom: 20px;
-  }
 }
 
 .block_red .center p, .block_red .type p {
