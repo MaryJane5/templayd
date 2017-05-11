@@ -426,10 +426,9 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   margin-left: 25px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .img_client {
-    width: 60px;
-    height: 60px;
+    padding: 25px 0;
   }
 }
 
@@ -460,9 +459,9 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   top: 20%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 993px) {
   .triangle-topright_1:before {
-    top: 10%;
+    display: none;
   }
 }
 
@@ -476,9 +475,9 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .client .triangle-topright_2 {
-    margin-left: 20px;
+    margin: auto;
   }
 }
 
@@ -493,9 +492,9 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   top: 20%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .client .triangle-topright_2:before {
-    top: 10%;
+    display: none;
   }
 }
 
