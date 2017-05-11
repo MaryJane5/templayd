@@ -252,6 +252,13 @@
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 992px) {
+  .client_iner {
+    width: 500px;
+    margin-left: 70px;
+  }
+}
+
 .oure_client h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
@@ -266,6 +273,12 @@
   height: 100px;
   -webkit-border-radius: 50%;
           border-radius: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .img_client img {
+    margin-left: 0px;
+  }
 }
 
 .text_client_top p {
@@ -750,4 +763,10 @@
 
 .service form .sech_bttn {
   background-color: #000;
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    height: 200px;
+  }
 }
