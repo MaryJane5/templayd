@@ -16,27 +16,41 @@
 
 <header class="header">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-3 col-sm-12">
-				<div class="logo_header"><a href="http://tilda.cc/ru/"><img src="img/logoheader.png" alt=""></a></div>
-				</div>
-			<div class="col-md-4 col-sm-12">
-				<div class="nav_menu">
-					<ul>
-						<li><a href="">Возможности </a></li>
-						<li><a href="">Цены</a></li>
-						<li><a href="">БЛОГ</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md-5 col-sm-12 link">
-				<div class="phone_number">
-					<p>0(800) 210-638</p>
-				</div>
-				<button ><a href="">Попробовать<br> 45 дней бесплатно</a></button>
-			</div>
-			<a href="">Вход</a>
-		</div>
+		<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Марка и переключение сгруппированы для лучшего мобильного дисплея -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      <a class="navbar-brand" href="#"><span class="img_header"><img src="img/logoheader.png" alt=""></span></a>
+    </div>
+
+    <!-- Соберите навигационные ссылки, формы, и другой контент для переключения -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Возможности </a></li>
+        <li><a href="#">Цены  </a></li>
+        <li><a href="#">БЛОГ </a></li>
+       
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+     	 <li><h3>0(800) 210-638</h3></li>
+       
+		<form class="navbar-form navbar-left" role="search">
+        	<div class="form-group">
+        		<button type="submit" class="btn btn-default btn_header">Попробовать<br> 45 дней бесплатно</button>
+      </form>
+      	 <li><a href="#">Вход</a></li>
+      
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 	</div>
 </header>
 
@@ -233,19 +247,19 @@
 		</div>
 	</section>
 
-<section class="many">
+<section class="money">
 	<div class="container">
 		<div class="row">
 
 
 			<div class="col-md-6">
 				
-					<div class="text_many">
+					<div class="text_money">
 						<h3>Проблемы с которыми сталкивается бизнес</h3>
 					</div>
 
-				<div class="many_uoter">	
-					<div class="text_many_head">
+				<div class="money_outer">	
+					<div class="text_money_head">
 						<h4>Нехватка денег</h4>
 					</div>
 					<div class="text_many_bott">
@@ -253,7 +267,7 @@
 					</div>
 				</div>
 
-				<div class="many_uoter">	
+				<div class="money_outer">	
 					<div class="text_many_head">
 						<h4>Деньги есть только в расчетах</h4>
 					</div>
@@ -263,11 +277,11 @@
 				</div>
 
 
-				<div class="many_uoter">	
+				<div class="money_outer">	
 					<div class="text_many_head">
 						<h4>Собственники не получают прибыль</h4>
 					</div>
-					<div class="text_many_bott">
+					<div class="text_money_bott">
 						<p>Выведение прибыли постоянно невозможно. Деньги расходуются непонятно куда.</p>
 					</div>
 				</div>
@@ -276,34 +290,34 @@
 				
 				<div class="col-md-6">
 				
-					<div class="text_many gren">
+					<div class="text_money gren">
 						<h3>Решение, которое предлагает Finance-Controlling</h3>
 					</div>
 
-				<div class="fc_uoter">	
-					<div class="text_many_head">
+				<div class="fc_outer">	
+					<div class="text_money_head">
 						<h4>Обеспечение платежеспособности</h4>
 					</div>
-					<div class="text_many_bott">
+					<div class="text_money_bott">
 						<p>Зная 1-го числа результат 30-го с достоверностью >92%, Вы можете повлиять на доходную часть и обеспечить платежеспособность.</p>
 					</div>
 				</div>
 
-				<div class="fc_uoter">	
-					<div class="text_many_head">
+				<div class="fc_outer">	
+					<div class="text_money_head">
 						<h4>Резерв и избыточные средства</h4>
 					</div>
-					<div class="text_many_bott">
+					<div class="text_money_bott">
 						<p>Обеспечение политики платежей, дисциплины и категорий платежей ведет к образованию избыточных средств и созданию резерва.</p>
 					</div>
 				</div>
 
 
-				<div class="fc_uoter">	
-					<div class="text_many_head">
+				<div class="fc_outer">	
+					<div class="text_money_head">
 						<h4>Собственники получают прибыль</h4>
 					</div>
-					<div class="text_many_bott">
+					<div class="text_money_bott">
 						<p>Обеспечивая платежеспособность, Вы обеспечиваете выведение прибыли - это становится регулярным платежным обязательством.</p>
 					</div>
 				</div>
@@ -661,7 +675,7 @@
 				
 								<input type="text" name="Subscribe our newsletter" placeholder="Введите ваш телефон" required>
 							
-								<button type="submit">Хочу управлять финансами!
+								<button type="submit" class="sech_bttn">Хочу управлять финансами!
 								</button>
 				
 							</form>

@@ -173,7 +173,7 @@
   padding: 75px 0;
 }
 
-.text_many h3 {
+.text_money h3 {
   color: #e50851;
   font-size: 40px;
   font-family: 'Roboto';
@@ -187,7 +187,7 @@
   width: 570px;
 }
 
-.text_many_head h4 {
+.text_money_head h4 {
   color: #000000;
   font-size: 16px;
   font-family: 'Roboto';
@@ -195,7 +195,7 @@
   font-weight: 500;
 }
 
-.text_many_bott p {
+.text_money_bott p {
   color: #000000;
   font-size: 16px;
   font-family: 'Roboto';
@@ -204,13 +204,13 @@
   width: 440px;
 }
 
-.many_uoter {
+.money_outer {
   z-index: 1;
   padding-left: 50px;
   padding-bottom: 40px;
 }
 
-.many_uoter:before {
+.money_outer:before {
   content: " ";
   position: absolute;
   background-image: url("../img/nomoney_red.png");
@@ -221,13 +221,13 @@
   left: 0;
 }
 
-.fc_uoter {
+.fc_outer {
   z-index: 1;
   padding-left: 50px;
   padding-bottom: 10px;
 }
 
-.fc_uoter:before {
+.fc_outer:before {
   content: " ";
   position: absolute;
   background-image: url("../img/fc_grean.png");
@@ -388,6 +388,11 @@
 
 .block_red .name_tariff {
   padding-bottom: 10px;
+}
+
+.block_red h3 {
+  color: #fff;
+  text-align: center;
 }
 
 .center p {
@@ -560,7 +565,7 @@
   height: 56px;
 }
 
-.sech form button {
+.sech form .sech_bttn {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   height: 60px;
@@ -634,6 +639,17 @@
   text-decoration: none;
 }
 
+.header .navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-brand {
+  height: 80px;
+  padding: 0px;
+  font-size: 18px;
+}
+
 .header ul {
   list-style: none;
 }
@@ -644,25 +660,16 @@
 
 .header ul li a {
   text-decoration: none;
-  padding-left: 20px;
   color: #000000;
   font-weight: 600;
   font-size: 16px;
+  vertical-align: middle;
 }
 
-.nav_menu {
-  padding-top: 35px;
-}
-
-.header .phone_number {
-  padding-top: 25px;
-  font-size: 26px;
-  display: inline-block;
-}
-
-.header button {
+.header .btn_header {
   font-family: 'Roboto', sans-serif;
-  height: 40px;
+  height: 45px;
+  width: 190px;
   border: 0 none;
   font-size: 14px;
   font-weight: 700;
@@ -672,6 +679,7 @@
           border-radius: 10px;
   width: 189px;
   background-color: #00a759;
+  color: #fff;
 }
 
 .link a {
