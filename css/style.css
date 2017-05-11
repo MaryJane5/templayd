@@ -5,7 +5,7 @@ body {
   table-layout: fixed;
 }
 
-section {
+section, article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
   overflow-x: hidden;
 }
 
