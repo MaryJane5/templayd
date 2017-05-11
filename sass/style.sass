@@ -5,16 +5,35 @@
 		text-align: center
 		font-size: 42px
 		font-weight: 700
+		@media screen and (max-width : 992px)
+			font-size: 30px
+
 .finance_iner
-	padding: 8% 0px
+	padding: 80px 0px
+	@media screen and (max-width : 1200px)
+		padding: 10px 0px
+	@media screen and (max-width : 992px)
+		width: 80%
+		margin: auto
 
 
 .finance_outer
 	padding: 50px 0
+	@media screen and (max-width : 1200px)
+		padding: 0px 0px
 	.plan
 		box-shadow: 10px 10px 15px rgba(0,0,0,0.5)
+		@media screen and (max-width : 992px)
+			margin: auto
+			box-shadow: none
+			text-align: center
+			padding-bottom: 20px
 		img
 			width: 100%
+			@media screen and (max-width : 992px)
+				width: 80%
+			
+
 		
 
 .finance
@@ -25,6 +44,8 @@
 		padding: 8px 25px
 		font-family: Roboto
 		font-weight: 900
+		@media screen and (max-width : 992px)
+			margin-bottom: 20px
 		a
 			text-decoration: none
 			color: #00a759
@@ -134,6 +155,8 @@
 		font-size: 42px
 		font-weight: 700
 		padding-bottom: 40px
+		@media screen and (max-width : 992px)
+			font-size: 30px
 .excel_text_bott
 	line-height: 1.55
 	p
@@ -141,7 +164,9 @@
 		font-weight: 300
 		color: #000
 		padding-top: 10px
-		width: 350px
+		width: 100%
+		@media screen and (max-width : 992px)
+			width: 90% 
 .many
 	padding: 75px 0
 .text_money
@@ -152,10 +177,16 @@
 		line-height: 1.25
 		font-weight: 500
 		padding-bottom: 25px
+		@media screen and (max-width : 1200px)
+			font-size: 30px
 .gren
 	h3
 		color: #00a759
 		width: 570px
+		@media screen and (max-width : 1200px)
+			font-size: 30px
+		@media screen and (max-width : 768px)
+			width: 300px
 .text_money_head
 	h4
 		color: #000000
@@ -170,35 +201,38 @@
 		font-family: 'Roboto'
 		line-height: 1.55
 		font-weight: 400
-		width: 440px
+		width: 400px
+		@media screen and (max-width : 480px)
+			width: 350px
 .money_outer
 	position:relative
 	z-index: 1
-	padding-left: 50px
+	padding-left: 45px
 	padding-bottom: 40px
 	&:before
 		content: " "
 		position: absolute
 		background-image: url("../img/nomoney_red.png")
-		width: 50px
-		height: 50px
+		width: 45px
+		height: 45px
 		background-size: contain
 		background-repeat: no-repeat
 		left: 0
 .fc_outer
 	position:relative
 	z-index: 1
-	padding-left: 50px
+	padding-left: 45px
 	padding-bottom: 10px
 	&:before
 		content: " "
 		position: absolute
 		background-image: url("../img/fc_grean.png")
-		width: 50px
-		height: 50px
+		width: 45px
+		height: 45px
 		background-size: contain
 		background-repeat: no-repeat
 		left: 0
+	
 
 
 .client
@@ -230,19 +264,16 @@
 		font-size: 42px
 		text-align: center
 		padding-bottom: 75px
-		@media screen and (max-width : 610px)
-			font-size: 30px
+		// @media screen and (max-width : 610px)
+		// 	font-size: 30px
 .img_client
 	img
 		width: 100px
 		height: 100px
 		border-radius: 50%
-		@media screen and (max-width : 992px)
-			margin-left: 0px
-		@media screen and (max-width : 678px)
-			margin-left: 0px
-			height: 80px
-			width: 80px
+		@media screen and (max-width : 768px)
+			width: 60px
+			height: 60px 
 .text_client_top
 	p
 		font-family: 'Open Sans', serif
@@ -264,15 +295,21 @@
 .margin_client
 	img
 		margin-left: 40px
-		@media screen and (max-width : 678px)
-			margin-left: 0px
+		@media screen and (max-width : 1200px)
+			margin-left: 0px 
+		
 .img_client
 	span
 		margin-left: 25px
 	@media screen and (max-width : 768px)
-		margin-left: 10px 
+		width: 60px
+		height: 60px 
 .triangle-topright_1
 	position: relative
+	@media screen and (max-width : 1200px)
+		width: 70%
+	@media screen and (max-width : 992px)
+		margin-left: 100px
 	&:before
 		content: ""
 		width: 10px
@@ -287,12 +324,10 @@
 .client
 	.triangle-topright_2
 		position: relative
+		@media screen and (max-width : 1200px)
+			width: 70%
 		@media screen and (max-width : 768px)
-				margin-left: 100px 
-		@media screen and (max-width : 720px)
-			margin-left: 50px
-		@media screen and (max-width : 600px)
-			width: 400px
+			margin-left: 20px
 		&:before
 				content: ""
 				width: 10px
@@ -329,8 +364,14 @@
 	height: 530px
 	margin: auto
 	margin-left: 30px
+	@media screen and (max-width : 992px)
+		margin-bottom: 20px
 .block_red
 	background: #e50851
+	@media screen and (max-width : 1200px)
+		margin-top: 20px
+	@media screen and (max-width : 992px)
+		margin-bottom: 20px
 	.center,.type
 		p
 			color: #fff
@@ -481,6 +522,8 @@
 .causes_border
 	border-right: 2px solid #d1d1d1
 	height: 320px
+	@media screen and (max-width : 992px) 
+		border: none
 
 
 .finance_form
@@ -527,6 +570,9 @@
 			line-height: 1.33
 			width: 256px
 			height: 56px
+			@media only screen and (max-width : 768px) 
+				width: 70%
+				margin-bottom: 3%
 		.sech_bttn
 			font-family: 'Roboto', sans-serif
 			text-align: center;
@@ -543,8 +589,13 @@
 			color: #ffffff
 			background-color: #00a759
 			border-radius: 10px
+			@media only screen and (max-width : 768px) 
+				width: 70%
+				padding: 10px 0
 .footer
 	padding: 35px 0
+	@media screen and (max-width : 768px)
+		text-align: center
 
 .phone_number
 	p
@@ -569,9 +620,14 @@
 		font-family: 'Open Sans'
 		line-height: 1.55
 		font-weight: 400
-		width: 390px
-		@media screen and (max-width : 992px)
-			width: 200px
+		width: 80%
+		@media screen and (max-width : 768px)
+			width: 100%
+// footer
+// 	.address
+// 		p
+// 			@media screen and (max-width : 992px)
+// 				width: 80%
 
 .text_footer_bott
 	h4
@@ -632,6 +688,15 @@
 		width: 189px
 		background-color: #00a759
 		color: #fff
+.nav_menu
+	display: inline-block
+	float: right
+.logo
+	display: inline-block
+.btn_menu
+	@media screen and (min-width : 992px)
+		display: none
+
 .link
 	a
 		color: #fff
@@ -642,6 +707,7 @@
 	padding: 50px 0
 	background-color: rgba(0,0,0,0.5)
 	background-blend-mode: multiply
+	background-size: cover
 .service_text_top
 	h1
 		color: #ffffff
@@ -663,13 +729,17 @@
 .ipad
 	@media screen and (max-width : 992px)
 		padding-top: 100px
+		margin: auto
+		text-align: center
+.ipad
 	@media screen and (max-width : 768px)
 		margin: auto
 		padding: 20px 0
+		padding-top: 0 
 	img
-		width: 100%
-	@media screen and (max-width : 768px)
 		width: 80%
+		@media screen and (max-width : 768px)
+			width: 80%
 	// @media screen and (max-width : 648px)
 .service
 	.sech
@@ -731,59 +801,5 @@
 		.sech_bttn
 			background-color: #000 
  
-
-
-
-.header 
-	@media screen and (max-width : 992px)
-		height: 200px
-
-// .client
-// 	.client_iner
-// 		@media screen and (max-width : 992px)
-// 			width: 546px
-// 			margin-left: 30px
-	
-
-	
-
-
-
-
-
-// @media only screen and (max-width : 992px)
-	
-
-
-
-// @media only screen and (max-width : 768px)
-
-
-
-// @media only screen and (max-width : 480px)
-
-
-// @media only screen and (max-width : 320px)
-
-
-
-
-
-// @media only screen and (min-width : 320px)
-
-
-
-// @media only screen and (min-width : 480px)
-
-
-
-
-// @media only screen and (min-width : 768px)
-
-// @media only screen and (min-width : 992px)
-
-
-
-// @media only screen and (min-width : 1200px)
 
 

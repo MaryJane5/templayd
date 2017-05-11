@@ -4,12 +4,37 @@
   font-weight: 700;
 }
 
+@media screen and (max-width: 992px) {
+  .finance_text_head h3 {
+    font-size: 30px;
+  }
+}
+
 .finance_iner {
-  padding: 8% 0px;
+  padding: 80px 0px;
+}
+
+@media screen and (max-width: 1200px) {
+  .finance_iner {
+    padding: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .finance_iner {
+    width: 80%;
+    margin: auto;
+  }
 }
 
 .finance_outer {
   padding: 50px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .finance_outer {
+    padding: 0px 0px;
+  }
 }
 
 .finance_outer .plan {
@@ -17,8 +42,24 @@
           box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
+@media screen and (max-width: 992px) {
+  .finance_outer .plan {
+    margin: auto;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
 .finance_outer .plan img {
   width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .finance_outer .plan img {
+    width: 80%;
+  }
 }
 
 .finance .btn {
@@ -29,6 +70,12 @@
   padding: 8px 25px;
   font-family: Roboto;
   font-weight: 900;
+}
+
+@media screen and (max-width: 992px) {
+  .finance .btn {
+    margin-bottom: 20px;
+  }
 }
 
 .finance .btn a {
@@ -157,6 +204,12 @@
   padding-bottom: 40px;
 }
 
+@media screen and (max-width: 992px) {
+  .excel_head_text h3 {
+    font-size: 30px;
+  }
+}
+
 .excel_text_bott {
   line-height: 1.55;
 }
@@ -166,7 +219,13 @@
   font-weight: 300;
   color: #000;
   padding-top: 10px;
-  width: 350px;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .excel_text_bott p {
+    width: 90%;
+  }
 }
 
 .many {
@@ -182,9 +241,27 @@
   padding-bottom: 25px;
 }
 
+@media screen and (max-width: 1200px) {
+  .text_money h3 {
+    font-size: 30px;
+  }
+}
+
 .gren h3 {
   color: #00a759;
   width: 570px;
+}
+
+@media screen and (max-width: 1200px) {
+  .gren h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gren h3 {
+    width: 300px;
+  }
 }
 
 .text_money_head h4 {
@@ -201,12 +278,18 @@
   font-family: 'Roboto';
   line-height: 1.55;
   font-weight: 400;
-  width: 440px;
+  width: 400px;
+}
+
+@media screen and (max-width: 480px) {
+  .text_money_bott p {
+    width: 350px;
+  }
 }
 
 .money_outer {
   z-index: 1;
-  padding-left: 50px;
+  padding-left: 45px;
   padding-bottom: 40px;
 }
 
@@ -214,8 +297,8 @@
   content: " ";
   position: absolute;
   background-image: url("../img/nomoney_red.png");
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   background-size: contain;
   background-repeat: no-repeat;
   left: 0;
@@ -223,7 +306,7 @@
 
 .fc_outer {
   z-index: 1;
-  padding-left: 50px;
+  padding-left: 45px;
   padding-bottom: 10px;
 }
 
@@ -231,8 +314,8 @@
   content: " ";
   position: absolute;
   background-image: url("../img/fc_grean.png");
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   background-size: contain;
   background-repeat: no-repeat;
   left: 0;
@@ -282,12 +365,6 @@
   padding-bottom: 75px;
 }
 
-@media screen and (max-width: 610px) {
-  .oure_client h3 {
-    font-size: 30px;
-  }
-}
-
 .img_client img {
   width: 100px;
   height: 100px;
@@ -295,17 +372,10 @@
           border-radius: 50%;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .img_client img {
-    margin-left: 0px;
-  }
-}
-
-@media screen and (max-width: 678px) {
-  .img_client img {
-    margin-left: 0px;
-    height: 80px;
-    width: 80px;
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -334,7 +404,7 @@
   margin-left: 40px;
 }
 
-@media screen and (max-width: 678px) {
+@media screen and (max-width: 1200px) {
   .margin_client img {
     margin-left: 0px;
   }
@@ -346,12 +416,25 @@
 
 @media screen and (max-width: 768px) {
   .img_client {
-    margin-left: 10px;
+    width: 60px;
+    height: 60px;
   }
 }
 
 .triangle-topright_1 {
   position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .triangle-topright_1 {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .triangle-topright_1 {
+    margin-left: 100px;
+  }
 }
 
 .triangle-topright_1:before {
@@ -375,21 +458,15 @@
   position: relative;
 }
 
+@media screen and (max-width: 1200px) {
+  .client .triangle-topright_2 {
+    width: 70%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .client .triangle-topright_2 {
-    margin-left: 100px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .client .triangle-topright_2 {
-    margin-left: 50px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .client .triangle-topright_2 {
-    width: 400px;
+    margin-left: 20px;
   }
 }
 
@@ -435,8 +512,26 @@
   margin-left: 30px;
 }
 
+@media screen and (max-width: 992px) {
+  .block_tariff {
+    margin-bottom: 20px;
+  }
+}
+
 .block_red {
   background: #e50851;
+}
+
+@media screen and (max-width: 1200px) {
+  .block_red {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .block_red {
+    margin-bottom: 20px;
+  }
 }
 
 .block_red .center p, .block_red .type p {
@@ -603,6 +698,12 @@
   height: 320px;
 }
 
+@media screen and (max-width: 992px) {
+  .causes_border {
+    border: none;
+  }
+}
+
 .finance_form {
   padding: 75px 0;
   text-align: center;
@@ -648,6 +749,13 @@
   height: 56px;
 }
 
+@media only screen and (max-width: 768px) {
+  .sech form input, .sech form select, .sech form textarea {
+    width: 70%;
+    margin-bottom: 3%;
+  }
+}
+
 .sech form .sech_bttn {
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -667,8 +775,21 @@
           border-radius: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+  .sech form .sech_bttn {
+    width: 70%;
+    padding: 10px 0;
+  }
+}
+
 .footer {
   padding: 35px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
 }
 
 .phone_number p {
@@ -696,12 +817,12 @@
   font-family: 'Open Sans';
   line-height: 1.55;
   font-weight: 400;
-  width: 390px;
+  width: 80%;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .address p {
-    width: 200px;
+    width: 100%;
   }
 }
 
@@ -774,6 +895,21 @@
   color: #fff;
 }
 
+.nav_menu {
+  display: inline-block;
+  float: right;
+}
+
+.logo {
+  display: inline-block;
+}
+
+@media screen and (min-width: 992px) {
+  .btn_menu {
+    display: none;
+  }
+}
+
 .link a {
   color: #fff;
 }
@@ -785,6 +921,7 @@
   padding: 50px 0;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
+  background-size: cover;
 }
 
 .service_text_top h1 {
@@ -812,6 +949,8 @@
 @media screen and (max-width: 992px) {
   .ipad {
     padding-top: 100px;
+    margin: auto;
+    text-align: center;
   }
 }
 
@@ -819,15 +958,16 @@
   .ipad {
     margin: auto;
     padding: 20px 0;
+    padding-top: 0;
   }
 }
 
 .ipad img {
-  width: 100%;
+  width: 80%;
 }
 
 @media screen and (max-width: 768px) {
-  .ipad {
+  .ipad img {
     width: 80%;
   }
 }
@@ -899,10 +1039,4 @@
 
 .service form .sech_bttn {
   background-color: #000;
-}
-
-@media screen and (max-width: 992px) {
-  .header {
-    height: 200px;
-  }
 }
