@@ -200,6 +200,7 @@
 		background-repeat: no-repeat
 		left: 0
 
+
 .client
 	background-color: #f7f7f7
 	padding: 75px 0
@@ -214,7 +215,11 @@
 		width: 500px
 		margin-left: 70px
 	@media screen and (max-width : 768px)
+		width: 450px
+		margin-left: 150px
+	@media screen and (max-width : 678px)
 		width: 400px
+		margin-left: 100px
 		
 
 .oure_client
@@ -225,6 +230,8 @@
 		font-size: 42px
 		text-align: center
 		padding-bottom: 75px
+		@media screen and (max-width : 610px)
+			font-size: 30px
 .img_client
 	img
 		width: 100px
@@ -232,6 +239,10 @@
 		border-radius: 50%
 		@media screen and (max-width : 992px)
 			margin-left: 0px
+		@media screen and (max-width : 678px)
+			margin-left: 0px
+			height: 80px
+			width: 80px
 .text_client_top
 	p
 		font-family: 'Open Sans', serif
@@ -253,9 +264,13 @@
 .margin_client
 	img
 		margin-left: 40px
+		@media screen and (max-width : 678px)
+			margin-left: 0px
 .img_client
 	span
 		margin-left: 25px
+	@media screen and (max-width : 768px)
+		margin-left: 10px 
 .triangle-topright_1
 	position: relative
 	&:before
@@ -267,17 +282,32 @@
 		position: absolute
 		left: -30px
 		top: 20%
-.triangle-topright_2
-	position: relative
-	&:before
-			content: ""
-			width: 10px
-			height: 10px
-			border-top: 30px solid #fff
-			border-right: 30px solid transparent
-			position: absolute
-			right: -30px
-			top: 20%
+		@media screen and (max-width : 768px)
+			top: 10%
+.client
+	.triangle-topright_2
+		position: relative
+		@media screen and (max-width : 768px)
+				margin-left: 100px 
+		@media screen and (max-width : 720px)
+			margin-left: 50px
+		@media screen and (max-width : 600px)
+			width: 400px
+		&:before
+				content: ""
+				width: 10px
+				height: 10px
+				border-top: 30px solid #fff
+				border-right: 30px solid transparent
+				position: absolute
+				right: -30px
+				top: 20%
+				@media screen and (max-width : 768px)
+					top: 10%
+.client_2
+	// @media screen and (max-width : 768px)
+	// 	margin-left: 50px
+
 
 .tariff
 	padding: 75px 0
@@ -621,10 +651,40 @@
 		font-weight: 700
 		
 		padding-bottom: 20px
+.service_inner
+	@media screen and (max-width : 992px)
+		margin-bottom: 20px
+	@media screen and (max-width : 768px)
+		width: 80%
+		margin: auto
+
+
 
 .ipad
+	@media screen and (max-width : 992px)
+		padding-top: 100px
+	@media screen and (max-width : 768px)
+		margin: auto
+		padding: 20px 0
 	img
-		width: 465px
+		width: 100%
+	@media screen and (max-width : 768px)
+		width: 80%
+	// @media screen and (max-width : 648px)
+.service
+	.sech
+		 form
+			input
+				@media screen and (max-width : 768px)
+					margin-bottom: 3% 
+				@media screen and (max-width : 480px)
+					width: 80%
+.service
+	form
+		.sech_bttn
+			@media screen and (max-width : 480px)
+				width: 80%
+
 .service_text_bott
 	p
 		color: #fff
@@ -642,6 +702,12 @@
 	box-shadow: 9px 4px 28px 0px rgba(71,71,71,1)
 	text-align: center
 	height: 200px
+	@media screen and (max-width : 992px)
+		height: 100%
+		width: 80%
+		text-align: center
+		margin: auto
+		padding: 20px 10px 
 
 
 .text_form_head

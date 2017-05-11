@@ -261,7 +261,15 @@
 
 @media screen and (max-width: 768px) {
   .client_iner {
+    width: 450px;
+    margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .client_iner {
     width: 400px;
+    margin-left: 100px;
   }
 }
 
@@ -274,6 +282,12 @@
   padding-bottom: 75px;
 }
 
+@media screen and (max-width: 610px) {
+  .oure_client h3 {
+    font-size: 30px;
+  }
+}
+
 .img_client img {
   width: 100px;
   height: 100px;
@@ -284,6 +298,14 @@
 @media screen and (max-width: 992px) {
   .img_client img {
     margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .img_client img {
+    margin-left: 0px;
+    height: 80px;
+    width: 80px;
   }
 }
 
@@ -312,8 +334,20 @@
   margin-left: 40px;
 }
 
+@media screen and (max-width: 678px) {
+  .margin_client img {
+    margin-left: 0px;
+  }
+}
+
 .img_client span {
   margin-left: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .img_client {
+    margin-left: 10px;
+  }
 }
 
 .triangle-topright_1 {
@@ -331,11 +365,35 @@
   top: 20%;
 }
 
-.triangle-topright_2 {
+@media screen and (max-width: 768px) {
+  .triangle-topright_1:before {
+    top: 10%;
+  }
+}
+
+.client .triangle-topright_2 {
   position: relative;
 }
 
-.triangle-topright_2:before {
+@media screen and (max-width: 768px) {
+  .client .triangle-topright_2 {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .client .triangle-topright_2 {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .client .triangle-topright_2 {
+    width: 400px;
+  }
+}
+
+.client .triangle-topright_2:before {
   content: "";
   width: 10px;
   height: 10px;
@@ -344,6 +402,12 @@
   position: absolute;
   right: -30px;
   top: 20%;
+}
+
+@media screen and (max-width: 768px) {
+  .client .triangle-topright_2:before {
+    top: 10%;
+  }
 }
 
 .tariff {
@@ -732,8 +796,58 @@
   padding-bottom: 20px;
 }
 
+@media screen and (max-width: 992px) {
+  .service_inner {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service_inner {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .ipad {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ipad {
+    margin: auto;
+    padding: 20px 0;
+  }
+}
+
 .ipad img {
-  width: 465px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .ipad {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service .sech input {
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .service .sech input {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .service form .sech_bttn {
+    width: 80%;
+  }
 }
 
 .service_text_bott p {
@@ -755,6 +869,16 @@
           box-shadow: 9px 4px 28px 0px #474747;
   text-align: center;
   height: 200px;
+}
+
+@media screen and (max-width: 992px) {
+  .box_header {
+    height: 100%;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 20px 10px;
+  }
 }
 
 .text_form_head h3 {
