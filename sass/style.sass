@@ -209,8 +209,8 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 		line-height: 1.55
 		font-weight: 400
 		width: 400px
-		@media screen and (max-width : 480px)
-			width: 350px
+		@media screen and (max-width : 992px)
+			width: 70%
 .money_outer
 	position:relative
 	z-index: 1
@@ -365,8 +365,10 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 	height: 530px
 	margin: auto
 	margin-left: 30px
-	@media screen and (max-width : 992px)
+	@media screen and (max-width : 1200px)
 		margin-bottom: 20px
+		margin-left: 0
+		margin: 0
 .block_red
 	background: #e50851
 	.center,.type
@@ -658,7 +660,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 
 
 .header
-	height: 90px
+	height: 110px
 	ul
 		list-style: none
 		li
@@ -669,60 +671,49 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 				color: #000000
 				font-weight: 600
 				font-size: 16px
-				
+
+.navbar-default .navbar-collapse
+	display: inline-block!important
+	@media screen and (max-width : 1200px)
+		border: none
 
 
+.header .navbar-default
+	z-index: 2
+	position: absolute
+	right: 0
+	width: 100%
+	background: #fff
 
-.header
-	.btn_header
-		font-family: 'Roboto', sans-serif
-		height: 45px
-		width: 190px
-		border: 0 none
-		font-size: 14px
-		font-weight: 700
-		cursor: pointer
-		background-color: #00a759
-		border-radius: 10px
-		width: 189px
-		background-color: #00a759
-		color: #fff
-.nav_menu
-	display: inline-block
-	float: right
-	padding-top: 25px
-	ul
-		li:nth-child(3)
-			padding-right: 100px
-		li:nth-child(5)
-			a
-				color: #00a759
-.nav_menu
+.navbar-left
 	li
-		padding-left: 20px
-		.try
-			color: #ffffff
-			background-color: #00a759
-			width: 190px
-			height: 45px
-			border-radius: 10px
-			border: none
-			a
-				color: #fff
-				font-size: 14px
-.btn_menu
-	width: 60px
+		@media screen and (max-width : 1200px)
+			width: 100%
+.navbar-right
+	ul
+		padding-left: 30px
+		li
+			padding-bottom: 15px
+.navbar-header 
+	@media screen and (max-width : 1200px)
+		float: left!important
+.navbar-default .navbar-toggle
+	@media screen and (max-width : 1200px)
+		position: absolute
+		right: 0
+		top: 5%
+.navbar-right
+	@media screen and (max-width : 1200px)
+		position: absolute
+		top: 5%
+		right: 20%
+	
 
 
-.logo
-	display: inline-block
-.btn_menu
-	@media screen and (min-width : 992px)
-		display: none
 
-.link
-	a
-		color: #fff
+
+
+
 .service
 	background-image: url("../img/header.png")
 	background-repeat: no-repeat
@@ -746,6 +737,8 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 .service_inner
 	@media screen and (max-width : 992px)
 		margin-bottom: 20px
+		padding-left: 10%
+		p
 	@media screen and (max-width : 768px)
 		width: 80%
 		margin: auto
@@ -757,6 +750,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 		padding-top: 100px
 		margin: auto
 		text-align: center
+		padding-bottom: 20px
 .ipad
 	@media screen and (max-width : 768px)
 		margin: auto
@@ -832,6 +826,56 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 	form
 		.sech_bttn
 			background-color: #000 
- 
+
+
+
+.navbar-header
+	@media screen and (max-width : 1200px)
+		float: none
+.navbar-left,.navbar-right
+	@media screen and (max-width : 1200px)
+		float: none !important
+
+
+.navbar-toggle 
+	@media screen and (max-width : 1200px)
+		display: block
+
+.navbar-collapse
+	@media screen and (max-width : 1200px)
+		border-top: 1px solid transparent
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1)
+
+.navbar-fixed-top 
+	@media screen and (max-width : 1200px)
+		top: 0
+		border-width: 0 0 1px
+
+.navbar-collapse.collapse
+	@media screen and (max-width : 1200px)
+		display: none!important
+
+.navbar-nav
+	@media screen and (max-width : 1200px)
+		float: none!important
+		margin-top: 7.5px
+
+.navbar-nav
+	li
+		@media screen and (max-width : 1200px)
+
+			float: none
+
+.navbar-nav
+	li
+		a
+			@media screen and (max-width : 1200px)
+				padding-top: 10px
+				padding-bottom: 10px
+
+.collapse.in
+	@media screen and (max-width : 1200px)
+		display:block !important
+
 
 
