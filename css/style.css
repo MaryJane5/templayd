@@ -293,7 +293,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   width: 400px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992) {
   .text_money_bott p {
     width: 70%;
   }
@@ -840,92 +840,26 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   text-align: center;
 }
 
-.header a {
-  text-decoration: none;
-}
-
-.header .navbar-default {
-  background-color: transparent;
-  border-color: transparent;
-}
-
 .navbar-brand {
-  height: 80px;
+  height: auto;
   padding: 0px;
-  font-size: 18px;
 }
 
-.header {
-  height: 110px;
+.navbar-right li button {
+  color: #ffffff;
+  background-color: #00a759;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin-top: 5%;
+  width: 200px;
 }
 
-.header ul {
-  list-style: none;
-}
-
-.header ul li {
-  display: inline-block;
-}
-
-.header ul li a {
-  text-decoration: none;
+.navbar-default .navbar-nav li a {
   color: #000000;
   font-weight: 600;
-  font-size: 16px;
-}
-
-.navbar-default .navbar-collapse {
-  display: inline-block !important;
-}
-
-@media screen and (max-width: 1200px) {
-  .navbar-default .navbar-collapse {
-    border: none;
-  }
-}
-
-.header .navbar-default {
-  z-index: 2;
-  position: absolute;
-  right: 0;
-  width: 100%;
-  background: #fff;
-}
-
-@media screen and (max-width: 1200px) {
-  .navbar-left li {
-    width: 100%;
-  }
-}
-
-.navbar-right ul {
-  padding-left: 30px;
-}
-
-.navbar-right ul li {
-  padding-bottom: 15px;
-}
-
-@media screen and (max-width: 1200px) {
-  .navbar-header {
-    float: left !important;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .navbar-default .navbar-toggle {
-    position: absolute;
-    right: 0;
-    top: 5%;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .navbar-right {
-    position: absolute;
-    top: 5%;
-    right: 20%;
-  }
+  margin-top: 5;
+  font-size: 20px;
 }
 
 .service {
