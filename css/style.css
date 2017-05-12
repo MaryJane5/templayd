@@ -99,6 +99,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   font-size: 24px;
   font-weight: 400;
   font-family: Roboto;
+  text-align: center;
 }
 
 .text_finance_bott p {
@@ -246,7 +247,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 
 .text_money h3 {
   color: #e50851;
-  font-size: 40px;
+  font-size: 34px;
   font-family: 'Roboto';
   line-height: 1.25;
   font-weight: 500;
@@ -256,23 +257,23 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 @media screen and (max-width: 1200px) {
   .text_money h3 {
     font-size: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .text_money h3 {
+    min-height: auto;
   }
 }
 
 .gren h3 {
   color: #00a759;
-  width: 500px;
 }
 
 @media screen and (max-width: 1200px) {
   .gren h3 {
     font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .gren h3 {
-    width: 300px;
   }
 }
 
@@ -290,19 +291,13 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   font-family: 'Roboto';
   line-height: 1.55;
   font-weight: 400;
-  width: 400px;
-}
-
-@media screen and (max-width: 992) {
-  .text_money_bott p {
-    width: 70%;
-  }
 }
 
 .money_outer {
   z-index: 1;
   padding-left: 45px;
   padding-bottom: 40px;
+  width: 90%;
 }
 
 .money_outer:before {
@@ -313,7 +308,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   height: 45px;
   background-size: contain;
   background-repeat: no-repeat;
-  left: 0;
+  left: 10px;
 }
 
 .fc_outer {
@@ -330,7 +325,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   height: 45px;
   background-size: contain;
   background-repeat: no-repeat;
-  left: 0;
+  left: 10px;
 }
 
 .client {
@@ -860,6 +855,51 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   font-weight: 600;
   margin-top: 5;
   font-size: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar-righ {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar-default .navbar-nav {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar-collapse.collapse {
+    height: 80px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar-default .navbar-nav li a {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar-nav li {
+    height: 100%;
+    display: table;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar-right li button {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar-nav li {
+    text-align: center;
+  }
 }
 
 .service {

@@ -61,6 +61,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 		font-size: 24px
 		font-weight: 400
 		font-family: Roboto
+		text-align: center
 .text_finance_bott
 	
 .text_finance_bott
@@ -179,21 +180,23 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 .text_money
 	h3
 		color: #e50851
-		font-size: 40px
+		font-size: 34px
 		font-family: 'Roboto'
 		line-height: 1.25
 		font-weight: 500
 		padding-bottom: 25px
+		// min-height: 200px
 		@media screen and (max-width : 1200px)
 			font-size: 30px
+			text-align: center
+		@media screen and (max-width : 992px)
+			min-height: auto
 .gren
 	h3
 		color: #00a759
-		width: 500px
 		@media screen and (max-width : 1200px)
 			font-size: 30px
-		@media screen and (max-width : 768px)
-			width: 300px
+		
 .text_money_head
 	h4
 		color: #000000
@@ -208,14 +211,13 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 		font-family: 'Roboto'
 		line-height: 1.55
 		font-weight: 400
-		width: 400px
-		@media screen and (max-width : 992)
-			width: 70%
+		
 .money_outer
 	position:relative
 	z-index: 1
 	padding-left: 45px
 	padding-bottom: 40px
+	width: 90%
 	&:before
 		content: " "
 		position: absolute
@@ -224,7 +226,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 		height: 45px
 		background-size: contain
 		background-repeat: no-repeat
-		left: 0
+		left: 10px
 .fc_outer
 	position:relative
 	z-index: 1
@@ -238,7 +240,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 		height: 45px
 		background-size: contain
 		background-repeat: no-repeat
-		left: 0
+		left: 10px
 	
 
 
@@ -647,66 +649,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 		font-weight: 400
 		text-align: center
 
-// .header
-// 	a
-// 		text-decoration: none
-// 	.navbar-default
-// 		background-color: transparent
-// 		border-color: transparent
-// .navbar-brand 
-// 	height: 80px
-// 	padding: 0px
-// 	font-size: 18px
 
-
-// .header
-// 	height: 110px
-// 	ul
-// 		list-style: none
-// 		li
-// 			display: inline-block
-// 			a
-// 				text-decoration: none
-// 				// padding-left: 20px
-// 				color: #000000
-// 				font-weight: 600
-// 				font-size: 16px
-
-// .navbar-default .navbar-collapse
-// 	display: inline-block!important
-// 	@media screen and (max-width : 1200px)
-// 		border: none
-
-
-// .header .navbar-default
-// 	z-index: 2
-// 	position: absolute
-// 	right: 0
-// 	width: 100%
-// 	background: #fff
-
-// .navbar-default
-// 	li
-// 		@media screen and (max-width : 768px)
-// 			width: 100%
-// .navbar-right
-// 	ul
-// 		padding-left: 30px
-// 		li
-// 			padding-bottom: 15px
-// .navbar-header 
-// 	@media screen and (max-width : 1200px)
-// 		float: left!important
-// .navbar-default .navbar-toggle
-// 	@media screen and (max-width : 1200px)
-// 		position: absolute
-// 		right: 0
-// 		top: 5%
-// .navbar-right
-// 	@media screen and (max-width : 1200px)
-// 		position: absolute
-// 		top: 5%
-// 		right: 20%
 
 .navbar-brand
 	height: auto
@@ -731,7 +674,39 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 			// margin-top: 10%
 			font-size: 20px
 
+.navbar-righ
+	@media screen and (min-width : 1200px)
+		height: 100%
 
+.navbar-default .navbar-nav
+	ul
+	@media screen and (min-width : 1200px)
+		height:  100%
+.navbar-collapse.collapse
+		@media screen and (min-width : 1200px)
+			height: 80px!important	
+.navbar-default .navbar-nav 
+	li
+		a 
+			@media screen and (min-width : 1200px)
+				display: table-cell
+				vertical-align: middle
+.navbar-nav
+	li 
+		@media screen and (min-width : 1200px)
+			height: 100%
+			display: table
+			height: 100%
+.navbar-right
+	li
+		button
+			@media screen and (max-width : 1200px)
+				margin: 0
+.navbar-nav
+		li 
+			a
+			@media screen and (max-width : 1200px)
+				text-align: center
 
 
 
