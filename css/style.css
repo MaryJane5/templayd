@@ -334,7 +334,6 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
 }
 
 .client_iner {
-  width: 830px;
   padding: 30px 35px;
   background-color: #fff;
   -webkit-border-radius: 10px;
@@ -452,7 +451,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   position: relative;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
   .client .triangle-topright_2 {
     width: 70%;
   }
@@ -492,108 +491,6 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   font-size: 42px;
   text-align: center;
   padding-bottom: 50px;
-}
-
-.block_tariff {
-  padding: 30px 20px;
-  border: 1px solid #e0e6ed;
-  -webkit-border-radius: 9px;
-          border-radius: 9px;
-  text-align: center;
-  min-width: 200px;
-  height: 530px;
-  margin: auto;
-  margin-left: 30px;
-}
-
-@media screen and (max-width: 1200px) {
-  .block_tariff {
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin: 0;
-  }
-}
-
-.block_red {
-  background: #e50851;
-}
-
-.block_red .center p, .block_red .type p {
-  color: #fff;
-}
-
-.block_red .form_radio {
-  color: #fff;
-}
-
-.name_tariff {
-  padding-bottom: 30px;
-}
-
-.name_tariff h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 600;
-  color: #000;
-  font-size: 22px;
-  text-align: left;
-  padding: 8px 0;
-}
-
-.type p {
-  color: #777;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  text-align: left;
-  padding: 10px 0;
-}
-
-.block_red .name_tariff {
-  padding-bottom: 10px;
-}
-
-.block_red h3 {
-  color: #fff;
-  text-align: center;
-}
-
-.center p {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color: #000;
-  font-size: 16px;
-  text-align: left;
-  padding: 10px 0;
-}
-
-.form_radio {
-  color: #000;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  text-align: left;
-  padding: 10px 0;
-}
-
-.form_radio form input[type=checkbox], .form_radio form input[type=radio] {
-  margin: 20px 0;
-}
-
-.form_radio form input [type="button"], .form_radio form input[type=button], .form_radio form input[type=reset], .form_radio form input[type=submit] {
-  color: #ffffff;
-  background-color: #13ce66;
-  -webkit-border-radius: 10px;
-          border-radius: 10px;
-  font-family: Roboto;
-  height: 40px;
-  font-size: 14px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border: none;
-}
-
-.form_radio a {
-  text-decoration: none;
 }
 
 .our_team {
@@ -643,6 +540,93 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   font-size: 42px;
   text-align: center;
   padding-bottom: 80px;
+}
+
+.block_tariff {
+  padding: 40px 18px;
+  border: 1px solid #e0e6ed;
+  -webkit-border-radius: 9px;
+          border-radius: 9px;
+  min-width: 25%;
+}
+
+@media screen and (max-width: 1200px) {
+  .block_tariff {
+    margin-top: 20px;
+  }
+}
+
+#red-tariff {
+  background-color: #e50851;
+  color: #fff;
+}
+
+#red-tariff h3 {
+  padding-bottom: 0px;
+  color: #fff;
+  text-align: center;
+}
+
+#red-tariff p {
+  color: #fff;
+}
+
+#red-tariff .form_radio {
+  color: #fff;
+}
+
+.name_tariff h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: #000;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.type p {
+  color: #777;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.form_radio {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.form_radio form input[type=checkbox], .form_radio form input[type=radio] {
+  margin: 20px 0;
+}
+
+.form_radio {
+  font-size: 13px;
+}
+
+.form_radio form input [type="button"], .form_radio form input[type=button], .form_radio form input[type=reset], .form_radio form input[type=submit] {
+  color: #ffffff;
+  background-color: #13ce66;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  font-family: Roboto;
+  height: 40px;
+  font-size: 14px;
+  width: 100%;
+  border: none;
+}
+
+.form_radio a {
+  text-decoration: none;
+}
+
+.tariff #out_padding {
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .causes_img img {
@@ -722,6 +706,7 @@ section, article, aside, details, figcaption, figure, footer, header, hgroup, ma
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
+  background-size: cover;
 }
 
 .sech form input, .sech form select, .sech form textarea {
